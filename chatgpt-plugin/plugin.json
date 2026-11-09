@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Mayson Teal"
+  },
+  "description": "An AI character-chat companion for original characters, C.ai-style conversations, roleplay, and ongoing stories inside ChatGPT.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "Interactive"
+        ],
+        "category": "Entertainment",
+        "defaultPrompt": [
+          "Start a character roleplay with me.",
+          "Help me create an AI character.",
+          "Continue my story and remember the scene details in this chat."
+        ],
+        "developerName": "Mayson Teal",
+        "displayName": "MaceChat",
+        "longDescription": "Chat with AI-style characters in natural, back-and-forth conversations. Create characters with distinct personalities, start roleplay scenes, switch between multiple characters, and maintain story continuity using the conversation context. This is a C.ai-style experience inside ChatGPT, not a direct connection to Character.AI accounts or chats.",
+        "shortDescription": "AI character chats and roleplay"
+      }
+    }
+  },
+  "keywords": [
+    "character chat",
+    "roleplay",
+    "storytelling",
+    "AI chat",
+    "fictional characters"
+  ],
+  "name": "macechat",
+  "version": "0.1.1"
+}
